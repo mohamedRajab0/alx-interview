@@ -1,4 +1,6 @@
+#!/usr/bin/python3
 def pascal_triangle(n):
+    "make pascal triangle"
     res = [[1]]
     
     for i in range(n - 1):
